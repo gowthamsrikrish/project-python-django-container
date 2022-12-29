@@ -22,8 +22,7 @@ jobs:
       run: |
         pwd
         coverage erase
-        coverage run -m 
-        coverage xml -i || /bin/true
+        coverage run 
     - name: Analysing the code with pylint
       continue-on-error: true
       run: |
